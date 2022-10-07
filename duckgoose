@@ -1,0 +1,10 @@
+import sys
+
+def main(text):
+    duck_goose = sys.argv[1:]
+    
+    new_list = [i for i in duck_goose if i!= 'goose']
+    
+    print(new_list)
+    
+(main(sys.argv[1:]))
